@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon CV</title>
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- JS principal -->
+    <script src="/script.js" defer></script>
+
+    <!-- Icônes Bootstrap  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Police Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="cv-container">
+      <!--  SECTION GAUCHE  -->
+      <aside class="sidebar">
+        <div class="profile-section">
+          <img src="/photo.jpg" alt="Ma photo" class="profile-img" />
+        </div>
+
+        <section class="contact-section">
+          <h3 class="section-title">
+            <i class="bi bi-person-lines-fill"></i> Contact
+          </h3>
+
+          <div class="contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:mouhamedlniang@gmail.com"
+              >mouhamedlniang@gmail.com</a
+            >
+          </div>
+
+          <div class="contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <a href="tel:+221778512692">+221 77 851 26 92</a>
+          </div>
+
+          <div class="contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>2ème Rue de Leybar, Ndiolloféne, Sor - Saint-Louis</span>
+          </div>
+
+          <div class="contact-item">
+            <i class="bi bi-calendar-fill"></i><span>21 ans</span>
+          </div>
+          <div class="contact-item">
+            <i class="bi bi-flag-fill"></i><span>Sénégalaise</span>
+          </div>
+          <div class="contact-item">
+            <i class="bi bi-heart-fill"></i><span>Célibataire</span>
+          </div>
+        </section>
+
+        <section class="competences-section">
+          <h3 class="section-title">
+            <i class="bi bi-gear-fill"></i> Compétences
+          </h3>
+
+          <div class="skill-category">
+            <h4><i class="bi bi-code-slash"></i> Langages de programmation</h4>
+            <div class="skills-list">
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">Python</span>
+            </div>
+          </div>
+
+          <!-- Développement web  -->
+          <div class="skill-category">
+            <h4><i class="bi bi-globe"></i> Développement web</h4>
+            <div class="skills-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h4><i class="bi bi-database-fill"></i> Base de données</h4>
+            <div class="skills-list"><span class="skill-tag">SQL</span></div>
+          </div>
+
+          <div class="skill-category">
+            <h4><i class="bi bi-pc-display"></i> Logiciels</h4>
+            <div class="skills-list">
+              <span class="skill-tag">Word</span>
+              <span class="skill-tag">Excel</span>
+              <span class="skill-tag">PowerPoint</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h4><i class="bi bi-tools"></i> Support technique</h4>
+            <p>
+              Installation logicielle, résolution d'erreurs, configuration et
+              optimisation.
+            </p>
+          </div>
+
+          <div class="skill-category">
+            <h4><i class="bi bi-translate"></i> Langues</h4>
+
+            <div class="language-item">
+              <span>Français</span>
+              <div class="progress-bar" aria-hidden="true">
+                <div class="progress progress-fr"></div>
+              </div>
+            </div>
+
+            <div class="language-item">
+              <span>Anglais</span>
+              <div class="progress-bar" aria-hidden="true">
+                <div class="progress progress-en"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  QUALITÉS -->
+        <section class="qualities-section">
+          <h3 class="section-title">
+            <i class="bi bi-star-fill"></i> Qualités
+          </h3>
+          <ul class="qualities-list">
+            <li><i class="bi bi-check-circle-fill"></i> Polyvalent</li>
+            <li><i class="bi bi-check-circle-fill"></i> Dynamique</li>
+            <li><i class="bi bi-check-circle-fill"></i> Gestion du temps</li>
+            <li><i class="bi bi-check-circle-fill"></i> Esprit d'équipe</li>
+          </ul>
+        </section>
+
+        <!--  CENTRES D'INTÉRÊT -->
+        <section class="interests-section">
+          <h3 class="section-title">
+            <i class="bi bi-puzzle-fill"></i> Centres d'intérêt
+          </h3>
+          <div class="interests-grid">
+            <div class="interest-item">
+              <i class="bi bi-trophy-fill"></i><span>Karaté</span>
+            </div>
+            <div class="interest-item">
+              <i class="bi bi-controller"></i><span>Jeux vidéo</span>
+            </div>
+            <div class="interest-item">
+              <i class="bi bi-book-fill"></i><span>Anime & Manga</span>
+            </div>
+            <div class="interest-item">
+              <i class="bi bi-car-front-fill"></i><span>Permis B</span>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <!-- SECTION PRINCIPALE -->
+      <main class="main-content">
+        <!-- En-tête -->
+        <header class="header">
+          <h1 class="name">Mouhamadou Lamine NIANG</h1>
+          <h2 class="title">Étudiant en 2ème année d'Informatique</h2>
+          <hr class="header-divider" />
+        </header>
+
+        <section class="about-section">
+          <p class="about-text">
+            Actuellement étudiant en
+            <strong>2ème année de licence d'informatique</strong> à l'université
+            Iba Der Thiam,je suis passionné par les nouvelles technologies et la
+            résolution de problèmes complexes. Curieux j'aime approfondir mes
+            connaissances en programmation et explorer des domaines comme la
+            cybersécurité et l'analyse des données. Je cherche à appliquer mes
+            connaissances académiques dans un contexte professionnel.
+          </p>
+        </section>
+
+        <!-- FORMATION  -->
+        <section class="education-section">
+          <h3 class="main-section-title">
+            <i class="bi bi-mortarboard-fill"></i> Formation
+          </h3>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4 class="timeline-title">Licence en Informatique</h4>
+                <p class="timeline-company">
+                  Université Iba Der Thiam de Thiès
+                </p>
+                <p class="timeline-date">2023 - Présent</p>
+                <p class="timeline-level">2ème année</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4 class="timeline-title">
+                  Développement Personnel et Leadership
+                </h4>
+                <p class="timeline-company">PRSA Fass Ngom</p>
+                <p class="timeline-date">2024 (15 jours)</p>
+                <ul class="timeline-description">
+                  <li>
+                    Apprentissage de la planification et gestion du temps.
+                  </li>
+                  <li>
+                    Renforcement du leadership et communication en équipe.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4 class="timeline-title">
+                  Baccalauréat Scientifique Série S2
+                </h4>
+                <p class="timeline-company">Lycée Cheikh Omar Foutiyou Tall</p>
+                <p class="timeline-date">2020 - 2023</p>
+                <p class="timeline-mention">Mention : Assez-Bien</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4 class="timeline-title">BFEM</h4>
+                <p class="timeline-company">Groupe Scolaire Khadimou Rassoul</p>
+                <p class="timeline-date">2016 - 2020</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4 class="timeline-title">CFEE</h4>
+                <p class="timeline-company">Abu Bakr As Siddiq</p>
+                <p class="timeline-date">2016</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  EXPÉRIENCES PROFESSIONNELLES -->
+        <section class="experience-section">
+          <h3 class="main-section-title">
+            <i class="bi bi-briefcase-fill"></i> Expériences Professionnelles
+          </h3>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4 class="timeline-title">
+                  Projet Informatique : Bibliothèque Numérique
+                </h4>
+                <p class="timeline-company">Université Iba Der Thiam</p>
+                <p class="timeline-date">2025</p>
+                <ul class="timeline-description">
+                  <li>
+                    Développement d'une application web de gestion de
+                    bibliothèque numérique.
+                  </li>
+                  <li>
+                    Travail en groupe avec les outils Google Workspace (Site,
+                    Form, Sheets,).
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4 class="timeline-title">Stage technique</h4>
+                <p class="timeline-company">Lycée de RAO</p>
+                <p class="timeline-date">2024</p>
+                <ul class="timeline-description">
+                  <li>
+                    Installation et mise à jour de logiciels, sauvegarde de
+                    données et gestion des comptes.
+                  </li>
+                  <li>Aide à la saisie.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
