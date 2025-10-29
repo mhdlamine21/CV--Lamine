@@ -154,7 +154,11 @@ body {
 }
 
 .progress-en {
-  width: 60% !important;
+  width: 75% !important;
+}
+
+.progress-es {
+  width: 40% !important;
 }
 
 /* QUALITÉS ET INTÉRÊTS */
