@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mon CV</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    
-    <!-- Icônes Bootstrap  -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-
     <!-- Police Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
@@ -21,14 +24,14 @@
   </head>
 
   <body>
-    <div class="cv-container">
+    <div class="cv-container container">
       <!--  SECTION GAUCHE  -->
       <aside class="sidebar">
         <div class="profile-section">
           <img src="photo.jpg" alt="Ma photo" class="profile-img" />
         </div>
 
-        <section class="contact-section">
+        <section class="contact-section section mb-4">
           <h3 class="section-title">
             <i class="bi bi-person-lines-fill"></i> Contact
           </h3>
@@ -59,9 +62,12 @@
           <div class="contact-item">
             <i class="bi bi-heart-fill"></i><span>Célibataire</span>
           </div>
+          <div class="contact-item">
+            <i class="bi bi-car-front-fill"></i><span>Permis B</span>
+          </div>
         </section>
 
-        <section class="competences-section">
+        <section class="competences-section section mb-4">
           <h3 class="section-title">
             <i class="bi bi-gear-fill"></i> Compétences
           </h3>
@@ -126,11 +132,11 @@
         </section>
 
         <!--  QUALITÉS -->
-        <section class="qualities-section">
+        <section class="qualities-section section mb-4">
           <h3 class="section-title">
             <i class="bi bi-star-fill"></i> Qualités
           </h3>
-          <ul class="qualities-list">
+          <ul class="qualities-list list-unstyled">
             <li><i class="bi bi-check-circle-fill"></i> Polyvalent</li>
             <li><i class="bi bi-check-circle-fill"></i> Dynamique</li>
             <li><i class="bi bi-check-circle-fill"></i> Gestion du temps</li>
@@ -139,7 +145,7 @@
         </section>
 
         <!--  CENTRES D'INTÉRÊT -->
-        <section class="interests-section">
+        <section class="interests-section section mb-4">
           <h3 class="section-title">
             <i class="bi bi-puzzle-fill"></i> Centres d'intérêt
           </h3>
@@ -153,9 +159,6 @@
             <div class="interest-item">
               <i class="bi bi-book-fill"></i><span>Anime & Manga</span>
             </div>
-            <div class="interest-item">
-              <i class="bi bi-car-front-fill"></i><span>Permis B</span>
-            </div>
           </div>
         </section>
       </aside>
@@ -163,18 +166,18 @@
       <!-- SECTION PRINCIPALE -->
       <main class="main-content">
         <!-- En-tête -->
-        <header class="header">
+        <header class="header section mb-3">
           <h1 class="name">Mouhamadou Lamine NIANG</h1>
           <h2 class="title">Étudiant en 2ème année d'Informatique</h2>
           <hr class="header-divider" />
         </header>
 
-        <section class="about-section">
+        <section class="about-section section mb-4">
           <p class="about-text">
             Actuellement étudiant en
             <strong>2ème année de licence d'informatique</strong> à l'université
-            Iba Der Thiam,je suis passionné par les nouvelles technologies et la
-            résolution de problèmes complexes. Curieux j'aime approfondir mes
+            Iba Der Thiam, je suis passionné par les nouvelles technologies et
+            la résolution de problèmes complexes. Curieux j'aime approfondir mes
             connaissances en programmation et explorer des domaines comme la
             cybersécurité et l'analyse des données. Je cherche à appliquer mes
             connaissances académiques dans un contexte professionnel.
@@ -182,7 +185,7 @@
         </section>
 
         <!-- FORMATION  -->
-        <section class="education-section">
+        <section class="education-section section mb-4">
           <h3 class="main-section-title">
             <i class="bi bi-mortarboard-fill"></i> Formation
           </h3>
@@ -252,7 +255,7 @@
         </section>
 
         <!--  EXPÉRIENCES PROFESSIONNELLES -->
-        <section class="experience-section">
+        <section class="experience-section section mb-4">
           <h3 class="main-section-title">
             <i class="bi bi-briefcase-fill"></i> Expériences Professionnelles
           </h3>
